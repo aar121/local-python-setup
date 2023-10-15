@@ -15,3 +15,9 @@ def eat_lunch(list):
         print(f"First I eat {list[0]}")
       else:
         print(f"Next I eat {list[i]}")
+
+hello()
+print(pack(1,2,3))
+eat_lunch([])
+eat_lunch(["chips"])
+eat_lunch(["apple","banana","sandwich","cookie"])
